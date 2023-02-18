@@ -91,7 +91,7 @@ class NLP(Resource):
             filename = 'Fatimah Jinnah.csv'
 
 
-        data = pd.read_excel(path+"/"+filename)
+        data = pd.read_csv(path+"/"+filename)
         # print(data)
 
         # Preprocess the data
