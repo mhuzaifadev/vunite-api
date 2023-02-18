@@ -82,13 +82,13 @@ class NLP(Resource):
  
         path = os.path.dirname(__file__).replace("\\","/")
         if subject == 'sirsyed':
-            filename = 'SirSyedAhmedKhan.csv'
+            filename = 'Sir Syed Ahmed Khan.csv'
         elif subject == 'liquat':
-            filename = 'LiaquatAliKhan.csv'
+            filename = 'Liaquat Ali Khan.csv'
         elif subject == 'quaid':
-            filename = 'QuaideAzam.csv'
+            filename = 'Quaid e Azam.csv'
         elif subject == 'fatima':
-            filename = 'FatimahJinnah.csv'
+            filename = 'Fatimah Jinnah.csv'
 
 
         data = pd.read_excel(path+"/"+filename)
